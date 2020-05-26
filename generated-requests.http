@@ -1,0 +1,29 @@
+###
+GET http://localhost.dlh.de:8081/fruits
+
+<> 2020-05-26T011156.200.json
+<> 2020-05-26T011124.502.html
+
+###
+DELETE http://localhost:8081/fruits/{{id}}
+
+###
+POST http://localhost.dlh.de:8081/fruits/name/{{name}}/color/{{color}}
+
+###
+PUT http://localhost.dlh.de:8081/fruits/id/1/color/black
+
+<> 2020-05-26T011355.200.json
+<> 2020-05-26T011306.502.html
+<> 2020-05-26T011257.502.html
+
+###
+GET http://localhost.dlh.de:8081/taster
+
+<> 2020-05-26T011406.200.json
+<> 2020-05-26T011344.502.html
+
+###
+GET http://localhost.dlh.de:8081/taster/black
+
+<> 2020-05-26T011444.200.json
